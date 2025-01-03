@@ -1,5 +1,4 @@
-// const BASE_URL = "https://cuvette-final-evaluation-test.onrender.com/";
-const BASE_URL = "http://localhost:3000/";
+const BASE_URL = "https://form-builder-app-server.onrender.com";
 
 // TODO:URL's Related to User Authentication and Registration
 const registerUserURL = `${BASE_URL}user/register`;

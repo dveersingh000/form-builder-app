@@ -4,7 +4,7 @@ import NavWorkSpaceTool from "../components/Workspace/NavWorkSpaceTool";
 import useAuthentication from "../configuration/useAuthentication";
 import styles from "./Analystics.module.css";
 
-const BASE_URL = "https://localhost:3000/";
+const BASE_URL = "https://form-builder-app-server.onrender.com";
 function Analytics() {
   const { getFormDetails } = useAuthentication();
   const [sharedLinkDetails, setSharedLinkDetails] = useState(null);
